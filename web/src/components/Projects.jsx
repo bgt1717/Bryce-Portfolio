@@ -26,10 +26,10 @@ function Projects() {
           <ProjectItem
             img={ProjectItemPic4}
             title="Blog Application"
-            stack="React, Node.js, Express, MongoDB"
+            stack="React, Node.js, Express, MongoDB, Cloudinary"
             bullets={[
-              "Developed a full-stack blogging platform with authentication, image uploads, and post management.",
-              "Implemented RESTful APIs, media storage integration, and responsive client-side interfaces for a seamless user experience.",
+              "Built a full-stack blog with secure user authentication, post management, and image uploads powered by Cloudinary.",
+              "Designed RESTful APIs and MongoDB data models with Cloudinary for efficient cloud-based image storage and delivery.",
             ]}
             githubUrl="https://github.com/bgt1717/MernBlog2"
             websiteDemo="https://townsendblog.onrender.com/"
