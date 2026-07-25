@@ -17,8 +17,8 @@ function Projects() {
             title="Notes Hub"
             stack="React, Node.js, Express, MongoDB"
             bullets={[
-              "Built a CRUD-based notes application with a relational database backend.",
-              "Designed REST endpoints to support data persistence and user interactions.",
+              "Built a full-stack note-taking application with secure user authentication and personal note management.",
+              "Designed RESTful APIs and MongoDB data models to support creating, editing, deleting, and organizing notes.",
             ]}
             githubUrl="https://github.com/bgt1717/CRUD_Project_VB"
             websiteDemo="https://notesapp-s8ix.onrender.com/"
@@ -28,8 +28,8 @@ function Projects() {
             title="Blog Application"
             stack="React, Node.js, Express, MongoDB"
             bullets={[
-              "Developed a full-stack blog application powered by a relational database backend.",
-              "Architected scalable backend services that handle CRUD operations with client–server communication.",
+              "Developed a full-stack blogging platform with authentication, image uploads, and post management.",
+              "Implemented RESTful APIs, media storage integration, and responsive client-side interfaces for a seamless user experience.",
             ]}
             githubUrl="https://github.com/bgt1717/MernBlog2"
             websiteDemo="https://townsendblog.onrender.com/"
@@ -39,8 +39,8 @@ function Projects() {
             title="Gantt Chart Application"
             stack="React, Node.js, Express, MongoDB"
             bullets={[
-              "Designed and implemented a full-stack task management system with user authentication.",
-              "Built RESTful APIs to support real-time project updates and persistent data storage.",
+              "Created a project management application featuring interactive Gantt charts, project timelines, and task tracking.",
+              "Built authenticated REST APIs for managing projects, tasks, and real-time progress updates with persistent data storage.",
             ]}
             githubUrl="https://github.com/bgt1717/GantAPP"
             websiteDemo="https://ganttapp-pe5h.onrender.com/"
@@ -49,10 +49,10 @@ function Projects() {
           <ProjectItem
             img={ProjectItemPic2}
             title="Calorie Guru"
-            stack="React, Node.js, Express"
+            stack="React, Node.js, Express, MongoDB"
             bullets={[
-              "Developed a full-stack calorie tracking application.",
-              "Implemented user authentication and data persistence.",
+              "Developed a full-stack nutrition tracker that allows users to log meals, monitor calories, and track daily macronutrients.",
+              "Implemented JWT authentication, meal management, and an interactive dashboard for nutritional insights.",
             ]}
             githubUrl="https://github.com/bgt1717/CalGuru"
             websiteDemo="https://calorie-guru.onrender.com/"
