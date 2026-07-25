@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
 import ProjectItemPic from "../assets/gantt.jpg";
-import ProjectItemPic2 from "../assets/bag-site.jpg";
+import ProjectItemPic2 from "../assets/CalGuru.jpg";
 import ProjectItemPic3 from "../assets/NotesApp.jpg";
 import ProjectItemPic4 from "../assets/Blog.jpg";
 
@@ -48,14 +48,14 @@ function Projects() {
 
           <ProjectItem
             img={ProjectItemPic2}
-            title="Bag E-Commerce Site"
+            title="Calorie Guru"
             stack="React, Node.js, Express"
             bullets={[
-              "Developed a responsive e-commerce gallery.",
-              "Integrated with Etsy Shop",
+              "Developed a full-stack calorie tracking application.",
+              "Implemented user authentication and data persistence.",
             ]}
-            githubUrl="https://github.com/bgt1717/BagWebsite2"
-            websiteDemo="https://atxbags.onrender.com/"
+            githubUrl="https://github.com/bgt1717/CalGuru"
+            websiteDemo="https://calorie-guru.onrender.com/"
           />
         </div>
       </div>
