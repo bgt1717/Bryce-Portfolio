@@ -12,17 +12,6 @@ function Projects() {
         <h1 className="section-title">Projects</h1>
 
         <div className="projects-grid">
-          <ProjectItem
-            img={ProjectItemPic2}
-            title="Calorie Guru"
-            stack="React, Node.js, Express, MongoDB"
-            bullets={[
-              "Developed a full-stack nutrition tracker that allows users to log meals, monitor calories, and track daily macronutrients.",
-              "Implemented JWT authentication, meal management, and an interactive dashboard for nutritional insights.",
-            ]}
-            githubUrl="https://github.com/bgt1717/CalGuru"
-            websiteDemo="https://calorie-guru.onrender.com/"
-          />
           
           <ProjectItem
             img={ProjectItemPic4}
@@ -56,6 +45,17 @@ function Projects() {
             ]}
             githubUrl="https://github.com/bgt1717/GantAPP"
             websiteDemo="https://ganttapp-pe5h.onrender.com/"
+          />
+            <ProjectItem
+            img={ProjectItemPic2}
+            title="Calorie Guru"
+            stack="React, Node.js, Express, MongoDB"
+            bullets={[
+              "Developed a full-stack nutrition tracker that allows users to log meals, monitor calories, and track daily macronutrients.",
+              "Implemented JWT authentication, meal management, and an interactive dashboard for nutritional insights.",
+            ]}
+            githubUrl="https://github.com/bgt1717/CalGuru"
+            websiteDemo="https://calorie-guru.onrender.com/"
           />
         </div>
       </div>

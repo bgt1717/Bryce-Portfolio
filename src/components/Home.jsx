@@ -16,8 +16,9 @@ const Home = () => {
           <h1>Hi, I’m Bryce Townsend</h1>
 
           <p>
-            Computer Science graduate focused on building clean, scalable
-            full-stack web applications with real-world impact.
+          Pricing analyst who turns data into smart decisions. 
+          With a background in analytics and full-stack development, I build both the insights and the tools behind them. 
+          I’m looking for opportunities in data analytics and software development.
           </p>
 
           <div className="home-buttons">
@@ -30,7 +31,7 @@ const Home = () => {
             </a>
 
             <a
-              href="https://drive.google.com/file/d/1elNBUodYmsfghWOgWmiXd0w4hhvZ0Rjq/view?usp=sharing"
+              href="https://drive.google.com/file/d/11N1EoM7HhubasezrzDsCUAcm_J24s8dy/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
