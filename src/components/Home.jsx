@@ -15,7 +15,7 @@ const Home = () => {
         <div className="home-content">
           <h1>Hi, I’m Bryce Townsend</h1>
 
-          <p>
+          <p className="home-description">
           Pricing analyst who turns data into smart decisions. 
           With a background in analytics and full-stack development, I build both the insights and the tools behind them. 
           I’m looking for opportunities in data analytics and software development.

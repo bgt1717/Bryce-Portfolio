@@ -1,7 +1,6 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
-import ProjectItemPic from "../assets/gantt.jpg";
-import ProjectItemPic2 from "../assets/CalGuru.jpg";
+import ProjectItemPic2 from "../assets/RetailSales.png";
 import ProjectItemPic3 from "../assets/NotesApp.jpg";
 import ProjectItemPic4 from "../assets/Blog.jpg";
 
@@ -15,7 +14,7 @@ function Projects() {
           
           <ProjectItem
             img={ProjectItemPic4}
-            title="Blog Application"
+            title="Development Blog"
             stack="React, Node.js, Express, MongoDB, Cloudinary"
             bullets={[
               "Built a full-stack blog with secure user authentication, post management, and image uploads powered by Cloudinary.",
@@ -36,27 +35,17 @@ function Projects() {
             websiteDemo="https://notesapp-s8ix.onrender.com/"
           />
             <ProjectItem
-            img={ProjectItemPic}
-            title="Gantt Chart Application"
-            stack="React, Node.js, Express, MongoDB"
-            bullets={[
-              "Created a project management application featuring interactive Gantt charts, project timelines, and task tracking.",
-              "Built authenticated REST APIs for managing projects, tasks, and real-time progress updates with persistent data storage.",
-            ]}
-            githubUrl="https://github.com/bgt1717/GantAPP"
-            websiteDemo="https://ganttapp-pe5h.onrender.com/"
-          />
-            <ProjectItem
             img={ProjectItemPic2}
-            title="Calorie Guru"
-            stack="React, Node.js, Express, MongoDB"
+            title="Retail Sales Dashboard"
+            stack="Python, Streamlit, Pandas, Plotly"
             bullets={[
-              "Developed a full-stack nutrition tracker that allows users to log meals, monitor calories, and track daily macronutrients.",
-              "Implemented JWT authentication, meal management, and an interactive dashboard for nutritional insights.",
+              "Developed an interactive retail sales analytics dashboard using Python, Streamlit, Pandas, and Plotly to visualize revenue, transaction volume, and product category performance.",
+              "Implemented data cleaning and transformation techniques to prepare raw sales data for analysis, enabling accurate insights and decision-making.",
             ]}
-            githubUrl="https://github.com/bgt1717/CalGuru"
-            websiteDemo="https://calorie-guru.onrender.com/"
+            githubUrl="https://github.com/bgt1717/Retail-Sales-Dashboard"
+            websiteDemo="https://retail-sales-dashboard-1.streamlit.app/"
           />
+          
         </div>
       </div>
     </section>

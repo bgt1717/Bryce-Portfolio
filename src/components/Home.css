@@ -6,6 +6,14 @@
   padding: 3rem 1.5rem;
 }
 
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  max-width: 1000px;
+  width: 100%;
+}
 .home-image {
   width: 260px;
   height: 260px;
