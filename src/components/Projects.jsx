@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
-import ProjectItemPic2 from "../assets/RetailSales.png";
+import ProjectItemPic2 from "../assets/Retail.png";
 import ProjectItemPic3 from "../assets/NotesApp.jpg";
 import ProjectItemPic4 from "../assets/Blog.jpg";
 
