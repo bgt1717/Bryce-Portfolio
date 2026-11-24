@@ -1,103 +1,104 @@
-/* ------------------------
-   Card
-------------------------- */
 .project-card {
-  border-radius: 1rem;          /* 👈 1rem radius */
-  overflow: hidden;             /* 👈 clips image to rounded corners */
-  background-color: var(--card-bg);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-  
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin-bottom: 1rem;
 }
 
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 3rem; /* 👈 vertical + horizontal spacing */
-  justify-items: center; /* centers cards */
-  
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.16);
 }
 
-
-/* ------------------------
-   Image
-------------------------- */
+/* Project image */
 .project-image {
   width: 100%;
-  height: 200px;
+  height: 260px;
   object-fit: cover;
-  display: block;
+  object-position: top;
 }
 
-
-
-/* ------------------------
-   Content
-------------------------- */
+/* Project details */
 .project-content {
+  display: flex;
+  flex-direction: column;
   padding: 1.5rem;
-  text-align: left;
+  flex: 1;
 }
 
 .project-title {
- color: var(--text-color);
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #1f2937;
 }
 
-/* ------------------------
-   Stack
-------------------------- */
 .project-stack {
- color: var(--muted-text);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #4f46e5;
+  margin-bottom: 1rem;
 }
 
-/* ------------------------
-   Bullets
-------------------------- */
 .project-bullets {
- color: var(--muted-text);
+  padding-left: 1.25rem;
+  margin-bottom: 1.5rem;
+  color: #4b5563;
+  line-height: 1.7;
 }
 
-.project-bullets li {
-  margin-bottom: 0.4rem;
-  line-height: 1.4;
-}
-
-/* ------------------------
-   Buttons
-------------------------- */
 .project-buttons {
   display: flex;
   gap: 0.75rem;
-  flex-wrap: wrap;
+  margin-top: auto;
 }
 
 .project-btn {
-  padding: 0.45rem 1.2rem;
+  display: inline-block;
+  padding: 0.65rem 1.2rem;
   border-radius: 6px;
-  font-size: 0.9rem;
-  font-weight: 500;
   text-decoration: none;
-  transition: all 0.2s ease;
+  font-weight: 600;
+  transition: background 0.2s ease;
 }
 
-/* Demo */
 .demo-btn {
-  background-color: #494949;
-  color: #ffffff;
+  background: #4f46e5;
+  color: white;
 }
-
 
 .demo-btn:hover {
-  background-color: #0033a0;
+  background: #4338ca;
 }
 
-/* GitHub */
 .github-btn {
-  border: 1px solid var(--accent-color);
-  color: var(--accent-color);
+  background: #1f2937;
+  color: white;
 }
 
 .github-btn:hover {
-  background-color: #001b5e;
-  color: #ffffff;
+  background: #111827;
+}
+
+/* Desktop layout */
+@media (min-width: 768px) {
+  .project-card {
+    flex-direction: row;
+    min-height: 300px;
+  }
+
+  .project-image {
+    width: 45%;
+    height: auto;
+    min-height: 300px;
+  }
+
+  .project-content {
+    width: 55%;
+    padding: 2rem;
+  }
 }
