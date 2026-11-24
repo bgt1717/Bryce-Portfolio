@@ -1,8 +1,8 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
 import ProjectItemPic2 from "../assets/Retail.png";
-import ProjectItemPic3 from "../assets/NotesApp.jpg";
-import ProjectItemPic4 from "../assets/Blog.jpg";
+import ProjectItemPic3 from "../assets/NotesApp.png";
+import ProjectItemPic4 from "../assets/blog.png";
 import Tableau from "../assets/Tableau.png";
 
 function Projects() {
@@ -20,44 +20,48 @@ function Projects() {
             bullets={[
               "Built a full-stack blog with secure user authentication, post management, and image uploads powered by Cloudinary.",
               "Designed RESTful APIs and MongoDB data models with Cloudinary for efficient cloud-based image storage and delivery.",
+              "Shares career experiences, professional development, and insights from my transition into data analytics and software development.",
+              "Document technical challenges, development processes, and lessons learned through hands-on projects."
             ]}
             githubUrl="https://github.com/bgt1717/MernBlog2"
             websiteDemo="https://townsendblog.onrender.com/"
           />
-          <ProjectItem
-            img={ProjectItemPic3}
-            title="Notes Hub"
-            stack="React, Node.js, Express, MongoDB"
-            bullets={[
-              "Built a full-stack note-taking application with secure user authentication and personal note management.",
-              "Designed RESTful APIs and MongoDB data models to support creating, editing, deleting, and organizing notes.",
-            ]}
-            githubUrl="https://github.com/bgt1717/CRUD_Project_VB"
-            websiteDemo="https://notesapp-s8ix.onrender.com/"
-          />
             <ProjectItem
             img={ProjectItemPic2}
-            title="Retail Sales Dashboard"
+            title="Retail Sales Dashboard - Analytics Project"
             stack="Python, Streamlit, Pandas, Plotly"
             bullets={[
-              "Developed an interactive retail sales analytics dashboard using Python, Streamlit, Pandas, and Plotly to visualize revenue, transaction volume, and product category performance.",
-              "Implemented data cleaning and transformation techniques to prepare raw sales data for analysis, enabling accurate insights and decision-making.",
+              "Implemented data cleaning and transformation techniques to handle missing values, standardize data, and prepare raw sales data for accurate analysis.",
+              "Created interactive visualizations and filters to analyze revenue by product category, customer age group, payment method, and purchasing behavior.",
+              "Applied exploratory data analysis, Pandas aggregations, and KPI calculations to identify sales trends, uncover customer insights, and support data-driven decision-making."
             ]}
             githubUrl="https://github.com/bgt1717/Retail-Sales-Dashboard"
             websiteDemo="https://retail-sales-dashboard-1.streamlit.app/"
           />
           <ProjectItem
             img={Tableau}
-            title="Computer Sales Dashboard"
+            title="Computer Sales Dashboard - Analytics Project"
             stack="Tableau, Data Visualization, Business Intelligence"
             bullets={[
-              "Created an interactive computer sales dashboard.",
-              "Visualized sales performance and product trends.",
-              "Presented business insights through interactive charts and filters."
+              "Built an interactive Tableau dashboard featuring sales KPIs, visual reports, and dynamic filters to explore computer sales data.",
+              "Analyzed sales performance across product categories and products to identify revenue trends, top-performing products, and areas of opportunity.",
+              "Applied business intelligence and data visualization techniques to highlight key findings and support data-driven decisions related to product performance and sales strategy."
             ]}
             websiteDemo="https://public.tableau.com/app/profile/bryce.townsend7380/viz/ComputersDashboard/Dashboard1?publish=yes"
           />
-          
+            <ProjectItem
+            img={ProjectItemPic3}
+            title="Notes Hub - Web Application"
+            stack="React, Node.js, Express, MongoDB"
+            bullets={[
+              "Built a responsive React application with secure user authentication, allowing users to register, log in, and manage personal notes.",
+              "Developed RESTful APIs using Node.js and Express to handle note creation, editing, deletion, and retrieval.",
+              "Designed MongoDB data models to store user accounts and notes, implementing user-specific data access and CRUD functionality.",
+              "Implemented an organized note-management interface with folder organization and a streamlined editing experience to improve usability and productivity."
+            ]}
+            githubUrl="https://github.com/bgt1717/CRUD_Project_VB"
+            websiteDemo="https://notesapp-s8ix.onrender.com/"
+          />
         </div>
       </div>
     </section>
