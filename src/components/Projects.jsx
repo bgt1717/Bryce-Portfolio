@@ -3,6 +3,7 @@ import ProjectItem from "./ProjectItem";
 import ProjectItemPic2 from "../assets/Retail.png";
 import ProjectItemPic3 from "../assets/NotesApp.jpg";
 import ProjectItemPic4 from "../assets/Blog.jpg";
+import Tableau from "../assets/Tableau.png";
 
 function Projects() {
   return (
@@ -44,6 +45,17 @@ function Projects() {
             ]}
             githubUrl="https://github.com/bgt1717/Retail-Sales-Dashboard"
             websiteDemo="https://retail-sales-dashboard-1.streamlit.app/"
+          />
+          <ProjectItem
+            img={Tableau}
+            title="Computer Sales Dashboard"
+            stack="Tableau, Data Visualization, Business Intelligence"
+            bullets={[
+              "Created an interactive computer sales dashboard.",
+              "Visualized sales performance and product trends.",
+              "Presented business insights through interactive charts and filters."
+            ]}
+            websiteDemo="https://public.tableau.com/app/profile/bryce.townsend7380/viz/ComputersDashboard/Dashboard1?publish=yes"
           />
           
         </div>
